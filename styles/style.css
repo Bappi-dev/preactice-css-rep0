@@ -1,4 +1,7 @@
-.banner{
+
+
+
+.banner {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -8,56 +11,81 @@
     border-radius: 1rem;
 }
 
-.banner-content{
+.banner-content {
     flex: 1;
     text-align: center;
     padding: 20px;
 }
 
-.banner-img-container{
+.banner-img-container {
     flex: 1;
 }
 
-.banner-img-container img{ 
-  width: 100%;
-  border-radius: 2rem;
+.banner-img-container img {
+    width: 100%;
+    border-radius: 2rem;
 }
-.banner-content button{
+
+.banner-content button {
     background-color: rgb(218, 139, 139);
     padding: 10px 20px;
     border-radius: 10px;
 }
-.card-container{
-    width: 250px;
-    height: 380px;
+
+.card-container {
+    
     padding: 25px;
     border: 1px solid gray;
     box-shadow: 5px 10px 10px rgb(214, 210, 210);
     border-radius: 20px;
 }
-.container{
+
+.container {
+    display: flex;
     margin-top: 100px;
     padding: 20px;
 }
 
-.imge{
-  display: flex;
-  justify-content: center;
-  
-  
-}
-.imge img{
-border-radius: 20px;
-}
-.button {
-   display:flex;
-   justify-content: end;
-  align-items: center; 
+.imge {
+    display: flex;
+    justify-content: center;
+
+
 }
 
-.button button{
+.imge img {
+    border-radius: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.button button {
     background-color: red;
     padding: 10px 10px;
-    
+
     border-radius: 10px;
+}
+
+.lets{
+  color: white;
+ text-align: center;
+ margin-top: 100px;
+ padding: 20px;
+}
+.lets button{
+    background-color:#ec8d20;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.section-content{
+    background-color: #f1cfa8;
+    border-radius: 16px;
+   
 }
