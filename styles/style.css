@@ -1,6 +1,3 @@
-
-
-
 .banner {
     display: flex;
     align-items: center;
@@ -33,7 +30,7 @@
 }
 
 .card-container {
-    
+
     padding: 25px;
     border: 1px solid gray;
     box-shadow: 5px 10px 10px rgb(214, 210, 210);
@@ -70,44 +67,61 @@
     border-radius: 10px;
 }
 
-.lets{
-  color: white;
- text-align: center;
- margin-top: 100px;
- padding: 20px;
+.lets {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
 }
-.lets button{
-    background-color:#ec8d20;
+
+.lets button {
+    background-color: #ec8d20;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 10px;
     padding: 20px;
 }
 
-.section-content{
+.section-content {
     background-color: #f1cfa8;
     border-radius: 16px;
-   
+
 }
 
-.our{
+.our {
     color: white;
     text-align: center;
     padding: 10px;
-   
+
 }
-.imgea{
+
+.imgea {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
     padding: 20px;
 }
 
-.our-section{
+.our-section {
     background-color: rgb(219, 212, 212);
     border-radius: 10px;
     margin-top: 20px;
     border: 5px dashed rgb(228, 120, 120);
     margin-bottom: 200px;
-   
+
+}
+
+.footer {
+    background-color: #f1cfa8;
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    color: black;
+    text-align: center;
+    border-radius: 18px;
+}
+.foter{
+    text-align: center;
+    color: aquamarine;
+    text-decoration: underline;
+    margin-top: -50px;
 }
